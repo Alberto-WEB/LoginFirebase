@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login | Firebase</title>
+    <!-- Boopstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
+    <!-- estilos css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- firebase -->
+    <script src="https://www.gstatic.com/firebasejs/5.7.2/firebase.js"></script>
+    <!-- firebase ui -->
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.css" />
+
+
+
+</head>
+<body>
+        <div class="container mt-5">
+        <h1 class="text-center text-white">Autenticacion con Firebase</h1>
+        <div id="firebaseui-auth-container"></div>
+        <div id="loader">Loading...</div>
+        </div>
+       
+        
+    <script src="fireBase.js"></script>
+     <script src="login.js"></script>
+     
+     
+     
+</body>
+</html>
