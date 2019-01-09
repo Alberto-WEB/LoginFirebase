@@ -21,7 +21,7 @@ var mainApp = {};
           
         }else{
             uid = null;
-            window.location.replace('index.php');
+            window.location.replace('index.html');
             
         }
       });
